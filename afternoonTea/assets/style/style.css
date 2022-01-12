@@ -1,0 +1,78 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+* {
+ font-family: 'Oooh Baby', cursive;
+}
+
+.header{
+    width: 100%;
+    height:20%;
+    background-color: #596A6B;
+}
+
+.logo{
+    width: 25%;
+    height: 90%;
+}
+
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/home_background.jpg");
+    background-size:cover;
+    height: 80%;
+}
+
+.column{
+    background-color:#EEE5E5;
+    padding: 1% 3%;
+    box-shadow: rgba(0,0,0, 0.1) 0 1px 2px;
+    border-radius:5px;
+    opacity:0.9;
+}
+
+
+.loginArea span{
+	font-size:150%;
+	width:30%;
+	margin-top:2%;
+	margin-left:4%;
+}
+
+.column form input[type="text"],
+.column form input[type="password"]{
+	padding-right:15%;
+	font-size:180%;
+	width:45%;
+    border-radius:5px;
+    border:1px solid;
+}
+
+.column form input[type="submit"]{
+	float:right;
+    color:#EEE5E5;
+    padding: 3% 0;
+    margin-right:5%;
+    margin-top:2%;
+    width: 20%;
+    border:none;
+    background-color:#44af69;
+    border-radius:3px;
+    
+}
+
+.error_message{
+    color:red;
+    text-align: center;
+}
+
+.title_massage{
+    text-align:center;
+}
+
